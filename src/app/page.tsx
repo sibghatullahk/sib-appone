@@ -6,28 +6,37 @@ import About from "./about/page";
 import Contact from "./contact/page";
 import Gallery from "./gallery/page";
 import bbq from "./bbq/page";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      {/* <Newhead/>
-      <Navbar/> */}
-      <header>
-        <nav className=" flex w-full bg-slate-500 h-20">
-          <div className="flex">
-        <div className="bg-green-900 w-20 h-20"></div>
+      <Navbar/>
+      <div className="flex w-full h-50">
+        {/* Cyan background container */}
+        <div className="flex w-1/2 h-50 bg-cyan-500">
+          {/* Image Card 1 */}
+          <div className="w-1/2 p-4">
+            <img
+              src="/path/to/your/image1.jpg"
+              alt="Image 1"
+              className="w-full h-auto object-cover"
+            />
+            <p className="text-white mt-2">Image Card 1 Description</p>
+          </div>
+
+          {/* Image Card 2 */}
+          <div className="w-1/2 p-4">
+            <img
+              src="/path/to/your/image2.jpg"
+              alt="Image 2"
+              className="w-full h-auto object-cover"
+            />
+            <p className="text-white mt-2">Image Card 2 Description</p>
+          </div>
         </div>
-        <div className="flex w-3/4 justify-end items-center">
-        <div className="bg-blue-900 w-20 h-10"></div>
-        <div className="bg-red-900 w-20 h-10"></div>
-        </div>
-        </nav>
-      </header>
-      
-      {/* <h1 className="bg-gray-400 text-purple-800 font-bold">New TailWind CSS</h1>
-      <p className="text-red-400 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
-      {/* Hello World
-      <Newfoot/> */}
+      </div>
+      <Newfoot/>
     </div>
   );
 }

@@ -3,25 +3,22 @@ import Link from "next/link"
 export default Navbar
 function Navbar(){
     return(
-        <div style={{backgroundColor:"black", color:"white"}}>
-         <ul>
-            <li>
-            <Link href="http://localhost:3000/">Home</Link>
-            </li>
-            <br />
-            <li>
-            <Link href="/gallery">Gallery</Link>
-            </li>
-            <br />
-            <li>
-            <Link href="/about">About</Link>
-            </li>
-            <br />
-            <li>
-            <Link href="bbq">BBQ</Link>
-            </li>
-            <br />
-         </ul>
+        <div>
+            <header>
+        <nav className=" flex w-full bg-slate-500 h-20">
+          <div className="flex">
+            <div className="bg-green-600 w-20 h-20"><p className=" text-pretty text-slate-50"><img src="https://img.icons8.com/?size=100&id=23831&format=png&color=000000" alt="Logo"/></p>
+          </div>
         </div>
+        <div className="flex w-3/4 justify-end items-center">
+        <div className="bg-blue-900 w-20 h-10"><p className=" text-center text-slate-50"><Link href="http://localhost:3000/">Home</Link></p></div>
+        <div className="bg-red-900 w-20 h-10"><p className=" text-center text-slate-50"><Link href="/gallery">Gallery</Link></p></div>
+        <div className="bg-yellow-900 w-20 h-10"><p className=" text-center text-slate-50"><Link href="/contact">Contact</Link></p></div>
+        <div className="bg-slate-900 w-20 h-10"><p className=" text-center text-slate-50"><Link href="/about">About</Link></p></div>
+        <div className="bg-lime-900 w-20 h-10"><p className=" text-center text-slate-50"><Link href="/bbq">Menu</Link></p></div>
+        </div>
+        </nav>
+      </header>
+    </div>
     )
 }

@@ -1,16 +1,12 @@
 import Navbar from "../components/Navbar";
+import Newfoot from "../components/Newfoot";
 export default bbq
 function bbq (){
     return(
         <div>
-            <Navbar/>
-<h1>This is my bbq page</h1>
-<ol>
-    <li>Tikka</li>
-    <li>Tikka</li>
-    <li>Tikka</li>
-    <li>Tikka</li>
-</ol>
+        <Navbar/>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, corrupti sint, deserunt ad fugit expedita odio, esse distinctio consequatur nemo explicabo iste sit dicta officia dolorem harum voluptatibus beatae unde!</p>
+        <Newfoot/>
 </div>
 );
 }

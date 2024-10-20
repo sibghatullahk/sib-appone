@@ -1,6 +1,8 @@
 export default Newfoot
 function Newfoot(){
     return(
-      <h3>This is the footer of the page</h3> 
+    <div>
+      <div className="flex w-full bg-slate-700 h-10 justify-center text-neutral-50"><p>&copy; 2024 Sibghat Ullah. All rights reserved.</p></div>
+    </div>
     )
 }
