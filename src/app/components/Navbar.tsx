@@ -15,7 +15,7 @@ function Navbar(){
         <div className="bg-red-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/gallery">Gallery</Link></p></div>
         <div className="bg-yellow-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/contact">Contact</Link></p></div>
         <div className="bg-slate-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/about">About</Link></p></div>
-        <div className="bg-lime-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/bbq">Menu</Link></p></div>
+        <div className="bg-lime-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/menu">Menu</Link></p></div>
         </div>
         </nav>
       </header>

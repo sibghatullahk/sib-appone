@@ -1,18 +1,16 @@
-import Image from "next/image";
 import Navbar from "./components/Navbar";
-import Newhead from "./components/Newhead";
 import Newfoot from "./components/Newfoot";
 import About from "./about/page";
 import Contact from "./contact/page";
 import Gallery from "./gallery/page";
-import bbq from "./bbq/page";
+import menu from "./menu/page";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
-      
+
       <div className="flex justify-center w-full h-auto p-2">
         {/* Background container */}
         <div className="flex justify-between w-11/12 p-4 h-[500px]">

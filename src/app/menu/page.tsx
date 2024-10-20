@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Newfoot from "../components/Newfoot";
-export default bbq
-function bbq (){
+export default menu
+function menu (){
     return(
         <div>
         <Navbar/>
