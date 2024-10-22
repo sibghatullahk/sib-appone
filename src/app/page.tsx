@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex justify-between w-11/12 p-4 h-[500px]">
 
           {/* Image Card 1 */}
-          <div className="w-5/12 bg-indigo-600 h-400 rounded-md shadow-md p-2">
+          <div className="w-5/12 bg-indigo-600 h-300 rounded-md shadow-md p-2">
             <img
               src="/path/to/your/image1.jpg"
               alt="Image 1"
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
 
           {/* Image Card 2 */}
-          <div className="w-5/12 bg-fuchsia-500 h-400 rounded-md shadow-md p-2">
+          <div className="w-5/12 bg-fuchsia-500 h-300 rounded-md shadow-md p-2">
             <img
               src="/path/to/your/image2.jpg"
               alt="Image 2"
@@ -43,7 +43,7 @@ export default function Home() {
         {/* Cyan background container */}
         <div className="flex justify-between w-11/12 p-4 h-[500px]">
           {/* Image Card 1 */}
-          <div className="w-1/4 bg-indigo-600 h-400 rounded-md shadow-md p-2">
+          <div className="w-1/4 bg-indigo-600 h-300 rounded-md shadow-md p-2">
             <img
               src="/path/to/your/image1.jpg"
               alt="Image 1"
@@ -66,14 +66,16 @@ export default function Home() {
           <div className="w-1/4 bg-indigo-600 h-400 rounded-md shadow-md p-2">
             <img
               src="/path/to/your/image1.jpg"
-              alt="Image 1"
+              alt="Image 3"
               className="w-full h-auto object-cover"
             />
-            <p className="text-white mt-2">Image Card 1 Description</p>
+            <p className="text-white mt-2">Image Card 3 Description</p>
           </div>
         </div>
       </div>
-
+      <div className="flex justify-center w-full h-auto p-2">
+      <div className="flex justify-between w-11/12 p-4 h-[300px] backdrop-brightness-75 rounded-md"><h1>Quick Links</h1></div>
+      </div>
       <Newfoot/>
     </div>
   );
