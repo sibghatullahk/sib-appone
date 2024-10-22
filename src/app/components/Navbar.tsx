@@ -12,7 +12,7 @@ function Navbar(){
           </div>
         </div>
         <div className="flex w-3/4 justify-end items-center">
-        <div className="bg-blue-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="http://localhost:3000/">Home</Link></p></div>
+        <div className="bg-blue-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/">Home</Link></p></div>
         <div className="bg-red-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/gallery">Gallery</Link></p></div>
         <div className="bg-yellow-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/contact">Contact</Link></p></div>
         <div className="bg-slate-900 w-20 h-10"><p className=" text-center text-slate-50 mt-1"><Link href="/about">About</Link></p></div>
